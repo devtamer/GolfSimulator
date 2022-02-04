@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3757c5335018f4ceca7722e1ff55e7af
+  - enabled: 1
+    path: Assets/Scenes/HowToPlay.unity
+    guid: 4207685ff7ab14cb9af0032b7772521f
+  - enabled: 1
+    path: Assets/Scenes/PlayerSelection.unity
+    guid: 3bf4cc38f82d1450596bc39d84a9bd7f
+  - enabled: 1
+    path: Assets/Scenes/About.unity
+    guid: 594e29790de72445a8506dc96112bfb0
+  - enabled: 1
+    path: Assets/Scenes/Hole1.unity
+    guid: a12d16a5030ac6e49a3cffdb9b583362
+  - enabled: 1
+    path: Assets/Scenes/Hole2.unity
+    guid: 20db687ebaaa84d8e897ea0be99db705
+  - enabled: 1
+    path: Assets/Scenes/Hole3.unity
+    guid: 28bc758aee6434a699bdb6967cfff710
+  m_configObjects: {}
