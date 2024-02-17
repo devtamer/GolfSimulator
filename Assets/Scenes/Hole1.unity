@@ -1339,8 +1339,8 @@ MonoBehaviour:
   - m_Script
   m_LockStageInInspector: 
   m_StreamingVersion: 20170927
-  m_Priority: 10
-  m_StandbyUpdate: 2
+  m_Priority: 100
+  m_StandbyUpdate: 0
   m_LookAt: {fileID: 455286726}
   m_Follow: {fileID: 455286726}
   m_CommonLens: 1
@@ -2297,7 +2297,7 @@ MonoBehaviour:
   m_LockStageInInspector: 00000000
   m_StreamingVersion: 20170927
   m_Priority: 10
-  m_StandbyUpdate: 2
+  m_StandbyUpdate: 0
   m_LookAt: {fileID: 455286726}
   m_Follow: {fileID: 0}
   m_Lens:
@@ -2322,7 +2322,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1014413415}
-  m_LocalRotation: {x: 0.14521313, y: 0.000000032966824, z: -0.000000004838501, w: 0.98940045}
+  m_LocalRotation: {x: 0.14521314, y: -8.619646e-15, z: 9.284736e-16, w: 0.98940045}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -2407,7 +2407,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1028527620}
-  m_LocalRotation: {x: 0.12719245, y: -0.000000017080886, z: 0.000000002186698, w: 0.9918781}
+  m_LocalRotation: {x: 0.12719245, y: -0.00000001707915, z: 0.0000000021869124, w: 0.9918781}
   m_LocalPosition: {x: 0, y: 8, z: -7.8999996}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -2747,7 +2747,7 @@ MonoBehaviour:
   m_LockStageInInspector: 00000000
   m_StreamingVersion: 20170927
   m_Priority: 10
-  m_StandbyUpdate: 2
+  m_StandbyUpdate: 0
   m_LookAt: {fileID: 455286726}
   m_Follow: {fileID: 0}
   m_Lens:
@@ -2772,7 +2772,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1196214369}
-  m_LocalRotation: {x: 0.1091774, y: -0.00000001912232, z: 0.0000000021002802, w: 0.9940223}
+  m_LocalRotation: {x: 0.10917738, y: -0.00000001762991, z: 0.0000000019363626, w: 0.9940223}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -3175,8 +3175,8 @@ MonoBehaviour:
   m_YDamping: 1
   m_ZDamping: 1
   m_AngularDampingMode: 0
-  m_PitchDamping: 0
-  m_YawDamping: 0
+  m_PitchDamping: 6
+  m_YawDamping: 5.1
   m_RollDamping: 0
   m_AngularDamping: 0
   m_Heading:
@@ -4151,8 +4151,8 @@ MonoBehaviour:
   m_YDamping: 6
   m_ZDamping: 1.5
   m_AngularDampingMode: 0
-  m_PitchDamping: 0
-  m_YawDamping: 0
+  m_PitchDamping: 5.6
+  m_YawDamping: 4.3
   m_RollDamping: 0
   m_AngularDamping: 0
   m_Heading:
@@ -4368,8 +4368,8 @@ MonoBehaviour:
   m_YDamping: 1
   m_ZDamping: 1
   m_AngularDampingMode: 0
-  m_PitchDamping: 0
-  m_YawDamping: 0
+  m_PitchDamping: 5.1
+  m_YawDamping: 7.6
   m_RollDamping: 0
   m_AngularDamping: 0
   m_Heading:
@@ -4457,7 +4457,7 @@ MonoBehaviour:
   m_LockStageInInspector: 00000000
   m_StreamingVersion: 20170927
   m_Priority: 10
-  m_StandbyUpdate: 2
+  m_StandbyUpdate: 0
   m_LookAt: {fileID: 455286726}
   m_Follow: {fileID: 0}
   m_Lens:

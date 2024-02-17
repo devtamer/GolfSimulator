@@ -9,12 +9,12 @@ public class Camrabehav : MonoBehaviour
     public CinemachineFreeLook cam;
     public Transform flag;
     private bool changed;
-  
+
     private void FixedUpdate()
     {
-        if (ball.velocity.x >= .1 || ball.velocity.y >= .1 || ball.velocity.z >= .1 )
+        if (ball.velocity.x >= .1 || ball.velocity.y >= .1 || ball.velocity.z >= .1)
         {
-            
+
             cam.m_BindingMode = CinemachineTransposer.BindingMode.WorldSpace;
             PlayerPrefs.SetInt("noSwing", 1);
 
@@ -27,21 +27,24 @@ public class Camrabehav : MonoBehaviour
         {
             cam.m_BindingMode = CinemachineTransposer.BindingMode.LockToTargetWithWorldUp;
             PlayerPrefs.SetInt("noSwing", 0);
-            
-  
+
+
             if (changed == false)
             {
                 Vector3 dir = flag.position - ball.transform.position;
-                Quaternion rot = Quaternion.LookRotation(dir);
-                ball.transform.rotation = rot;
+                // Quaternion rot = Quaternion.LookRotation(dir);
+                // ball.transform.rotation = rot;
                 changed = true;
+                float rotationSpeed = 0.01f; // Adjust rotation speed as needed
+                Quaternion targetRotation = Quaternion.LookRotation(dir);
+                ball.transform.rotation = Quaternion.Slerp(ball.transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
             }
-            
+
         }
-        
+
     }
-    
-       
-        
-    
+
+
+
+
 }
